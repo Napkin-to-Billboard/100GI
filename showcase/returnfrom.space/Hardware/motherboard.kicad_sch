@@ -1396,7 +1396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "TG9541:Display_128x64_096_I2C"
 			(at 165.1 39.37 0)
 			(effects
 				(font
