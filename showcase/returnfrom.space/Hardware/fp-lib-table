@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "spacescape")(type "KiCad")(uri "${KIPRJMOD}/spacescape.pretty")(options "")(descr ""))
+)
