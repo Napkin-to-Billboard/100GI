@@ -1307,6 +1307,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 173.99 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18841636-417f-465a-87f4-ae1df11a01ca")
+		(property "Reference" "J6"
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED"
+			(at 179.324 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TG9541:Display_128x64_096_I2C"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e8ad5daf-7b62-43a4-8a39-5f3bc16220b0")
+		)
+		(pin "3"
+			(uuid "7c90be73-ad30-4fdf-b447-208b425dc0d7")
+		)
+		(pin "2"
+			(uuid "1a04a5ef-f4a5-4369-aeef-3e500eb88759")
+		)
+		(pin "1"
+			(uuid "0eab734b-7392-4939-81e8-032286c2f0c2")
+		)
+		(instances
+			(project "spacescape"
+				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/bd4ffa4f-b637-4be7-8de2-092b7a28716e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 177.8 39.37 0)
 		(unit 1)
@@ -1371,81 +1446,6 @@
 			(project "spacescape"
 				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/bd4ffa4f-b637-4be7-8de2-092b7a28716e"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 161.29 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cbda95e-cc39-4241-af77-a0c92c6189c9")
-		(property "Reference" "J7"
-			(at 156.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OLED"
-			(at 155.956 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 161.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 161.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0c682f6a-fef6-40db-8d28-ab8ea14a880b")
-		)
-		(pin "3"
-			(uuid "6d523a34-7fbd-4360-a34d-e6c44693cd08")
-		)
-		(pin "2"
-			(uuid "45c61e57-e8f6-4974-846f-9cc69c7e050e")
-		)
-		(pin "1"
-			(uuid "29a6b8e0-a27a-415a-9721-92a3876044cb")
-		)
-		(instances
-			(project "spacescape"
-				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/bd4ffa4f-b637-4be7-8de2-092b7a28716e"
-					(reference "J7")
 					(unit 1)
 				)
 			)

@@ -79,7 +79,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -191,7 +191,8 @@
         0.1,
         0.16,
         0.2,
-        0.25
+        0.25,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -529,7 +530,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../spacescape.step",
+      "step": "../../../../../../Desktop/keypad.step",
       "svg": "",
       "vrml": ""
     },
@@ -668,10 +669,6 @@
     [
       "710b34da-2ff3-4b03-8183-b6a3c08c9c0f",
       "motherboard"
-    ],
-    [
-      "aedbeb84-a9e9-4f4e-aeda-e10af07a486d",
-      "supply"
     ],
     [
       "f8071adf-8c79-49d8-9fd8-09b7aea99222",
