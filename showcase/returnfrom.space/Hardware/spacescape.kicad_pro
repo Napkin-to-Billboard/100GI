@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -192,6 +192,10 @@
         0.16,
         0.2,
         0.25,
+        0.4,
+        0.5,
+        0.6,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -677,6 +681,10 @@
     [
       "b3f3025a-df4e-4d93-b3e9-df7af7ca410f",
       "laser"
+    ],
+    [
+      "126e2598-dd72-4799-b643-baad7dfcd795",
+      "d-pad"
     ]
   ],
   "text_variables": {}

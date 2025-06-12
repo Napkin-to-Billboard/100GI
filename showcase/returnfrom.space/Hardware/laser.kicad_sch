@@ -1882,16 +1882,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 105.41) (xy 143.51 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "291b36f7-0420-4688-86b6-0c31a5ed5399")
-	)
-	(wire
-		(pts
 			(xy 186.69 78.74) (xy 199.39 78.74)
 		)
 		(stroke
@@ -1919,16 +1909,6 @@
 			(type default)
 		)
 		(uuid "309a9431-2281-403c-8ad2-ee7bc5e5b169")
-	)
-	(wire
-		(pts
-			(xy 140.97 110.49) (xy 143.51 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328c88ef-e00b-477c-a158-6d61041dd77f")
 	)
 	(wire
 		(pts
@@ -3205,93 +3185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 148.59 107.95 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c69d9b2-7871-4338-8f93-af39cbf4cc8e")
-		(property "Reference" "J2"
-			(at 146.304 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08_Socket"
-			(at 147.955 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_FFC-FPC:TE_0-1734839-8_1x08-1MP_P0.5mm_Horizontal"
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "da0dacd8-30b0-47ff-ba21-9d7408d3ccb9")
-		)
-		(pin "6"
-			(uuid "f7927e58-ff89-455a-812b-cf3d8031459d")
-		)
-		(pin "8"
-			(uuid "ac558ab4-5ae7-4540-9ca6-af9a82917c45")
-		)
-		(pin "4"
-			(uuid "16b6d9e5-77e7-4eb5-ba83-61b545077011")
-		)
-		(pin "7"
-			(uuid "35eb0d62-cba3-4326-b8d0-c3d326556aa7")
-		)
-		(pin "2"
-			(uuid "019a8348-b083-4f91-9bfe-c1858e6bfffb")
-		)
-		(pin "5"
-			(uuid "7a7669b8-e3fb-44ed-9c1f-4bd6ae467d7f")
-		)
-		(pin "1"
-			(uuid "dd943d26-e0a2-4f95-ba65-79e4c8823e89")
-		)
-		(instances
-			(project "spacescape"
-				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/b3f3025a-df4e-4d93-b3e9-df7af7ca410f"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 57.15 0)
 		(mirror y)
@@ -3599,72 +3492,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc7a1177-af98-4a40-a573-bdc8e873c2aa")
-		(property "Reference" "#PWR021"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.636 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c99073d8-c5a7-412c-93d8-bb912f357506")
-		)
-		(instances
-			(project "spacescape"
-				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/b3f3025a-df4e-4d93-b3e9-df7af7ca410f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 223.52 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3793,73 +3620,6 @@
 			(project "spacescape"
 				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/b3f3025a-df4e-4d93-b3e9-df7af7ca410f"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 140.97 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc8c3c62-71ec-4a9b-bde2-e681590e30e2")
-		(property "Reference" "#PWR022"
-			(at 144.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 137.16 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7946d4c2-741b-495a-826a-206e1f6d9e55")
-		)
-		(instances
-			(project "spacescape"
-				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/b3f3025a-df4e-4d93-b3e9-df7af7ca410f"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
