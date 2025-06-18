@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -252,7 +252,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1549400|800100|bec6c072-7ff8-4458-9e35-a3af2df5f3aa|7061334b-38e3-479d-afa0-8a208dd227b8|/418a52ba-b136-48f0-a485-149e9dc1363e/b3767966-d6d1-4f79-8708-552c7bb7a812|/418a52ba-b136-48f0-a485-149e9dc1363e/b3767966-d6d1-4f79-8708-552c7bb7a812|/418a52ba-b136-48f0-a485-149e9dc1363e/bd4ffa4f-b637-4be7-8de2-092b7a28716e",
+        ""
+      ],
+      [
+        "unconnected_wire_endpoint|1206500|406400|71a66096-a06e-4801-b138-b307ef4fbc24|00000000-0000-0000-0000-000000000000|/418a52ba-b136-48f0-a485-149e9dc1363e/b3767966-d6d1-4f79-8708-552c7bb7a812||",
+        ""
+      ],
+      [
+        "unconnected_wire_endpoint|1435100|1409700|35aa2164-f522-4950-848c-f5d900667a95|00000000-0000-0000-0000-000000000000|/418a52ba-b136-48f0-a485-149e9dc1363e/b3767966-d6d1-4f79-8708-552c7bb7a812||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -534,7 +547,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Desktop/keypad.step",
+      "step": "../../../../../../Desktop/spacescape.step",
       "svg": "",
       "vrml": ""
     },
@@ -673,10 +686,6 @@
     [
       "710b34da-2ff3-4b03-8183-b6a3c08c9c0f",
       "motherboard"
-    ],
-    [
-      "f8071adf-8c79-49d8-9fd8-09b7aea99222",
-      "comms"
     ],
     [
       "b3f3025a-df4e-4d93-b3e9-df7af7ca410f",

@@ -5082,12 +5082,6 @@
 		(uuid "7ed6f59d-3cd3-4844-8c83-6f0006715779")
 	)
 	(junction
-		(at 78.74 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fa15796-b977-4fd7-adbb-7de3fd96a7aa")
-	)
-	(junction
 		(at 172.72 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5887,16 +5881,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 173.99) (xy 140.97 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23adeaad-62c5-464e-9e13-9d14b135c0e1")
-	)
-	(wire
-		(pts
 			(xy 231.14 110.49) (xy 231.14 102.87)
 		)
 		(stroke
@@ -6137,7 +6121,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 140.97) (xy 139.7 140.97)
+			(xy 138.43 140.97) (xy 143.51 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6557,7 +6541,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 90.17) (xy 78.74 92.71)
+			(xy 78.74 90.17) (xy 78.74 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6634,6 +6618,16 @@
 			(type default)
 		)
 		(uuid "57c794d4-3bd6-4051-9f1e-06ede755d096")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 138.43 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ddf3a1-6684-4db9-baf1-d0a95c8ad9f0")
 	)
 	(wire
 		(pts
@@ -6957,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 128.27 40.64)
+			(xy 120.65 40.64) (xy 128.27 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7107,6 +7101,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 181.61) (xy 140.97 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81568c0c-1555-4771-87e1-f324f244402b")
+	)
+	(wire
+		(pts
 			(xy 207.01 100.33) (xy 184.15 100.33)
 		)
 		(stroke
@@ -7194,16 +7198,6 @@
 			(type default)
 		)
 		(uuid "8a9b0a40-5b91-4340-a2d7-e4624bfc2e86")
-	)
-	(wire
-		(pts
-			(xy 78.74 92.71) (xy 78.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5da08e-5565-4cc9-8481-ffef6d558877")
 	)
 	(wire
 		(pts
@@ -7427,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 69.85) (xy 154.94 69.85)
+			(xy 148.59 69.85) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7637,16 +7631,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 78.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b392b42b-4494-4faf-a8c3-061a3f2b5201")
-	)
-	(wire
-		(pts
 			(xy 115.57 87.63) (xy 115.57 72.39)
 		)
 		(stroke
@@ -7804,6 +7788,16 @@
 			(type default)
 		)
 		(uuid "c3d7b06c-2ec6-42d2-a7b6-0b86040c5c5f")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 138.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54a6541-a361-4b52-9744-e6c92b400853")
 	)
 	(wire
 		(pts
@@ -8147,7 +8141,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 179.07) (xy 140.97 173.99)
+			(xy 140.97 173.99) (xy 138.43 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8675,6 +8669,46 @@
 		)
 		(uuid "2400c516-30fb-41cf-ac9d-83a7e5d34564")
 	)
+	(label "IO14"
+		(at 140.97 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "290bfc23-0d1e-41fc-b58d-5d62f354e8ac")
+	)
+	(label "RST1"
+		(at 148.59 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bc9379e-4f6f-4267-b24f-753a89de27bb")
+	)
+	(label "IO15"
+		(at 140.97 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a62239b-1a6f-48ba-bc66-a47752427ea0")
+	)
+	(label "IO10"
+		(at 140.97 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e0265db-0e39-4f59-b264-5ef2f91272e4")
+	)
 	(label "RST1"
 		(at 81.28 97.79 0)
 		(effects
@@ -8694,6 +8728,36 @@
 			(justify left bottom)
 		)
 		(uuid "43c89f3d-4039-4790-a2a4-8581c8329066")
+	)
+	(label "RGB"
+		(at 139.7 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fa610db-234b-4153-9a26-7b52a3fea619")
+	)
+	(label "RGB"
+		(at 121.92 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9249a6ea-e52b-44f0-b6be-8cc335f569be")
+	)
+	(label "IO11"
+		(at 140.97 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b326439d-77f3-4cf1-92ec-34c331e67ad4")
 	)
 	(label "RPSDA"
 		(at 151.13 146.05 0)
@@ -8715,6 +8779,16 @@
 		)
 		(uuid "b9fd6908-169e-4922-aa4d-6114c1308386")
 	)
+	(label "IO12"
+		(at 140.97 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c13e2cd9-754a-464a-9471-791aef32864e")
+	)
 	(label "BOOT1"
 		(at 81.28 115.57 0)
 		(effects
@@ -8724,6 +8798,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf88cfff-be21-45ae-81f8-20fac35d2a66")
+	)
+	(label "IO13"
+		(at 140.97 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1eddfd6-0e88-429e-be47-5d34666157a2")
 	)
 	(label "IO2"
 		(at 140.97 102.87 0)
@@ -8775,28 +8859,6 @@
 		)
 		(uuid "f5b4feea-5013-487d-8cf5-8fbb72e6393f")
 	)
-	(global_label "RST1"
-		(shape input)
-		(at 152.4 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c2794d1-998d-47f2-9eb4-6682cc53e151")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.7582 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DM1"
 		(shape input)
 		(at 59.69 48.26 0)
@@ -8815,28 +8877,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RGB"
-		(shape input)
-		(at 127 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b4fb776-c675-4cc2-af1b-faee2e13805b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2048 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8885,28 +8925,6 @@
 			)
 		)
 	)
-	(global_label "RST1"
-		(shape input)
-		(at 81.28 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8a62b12-c6fd-4cfa-986a-56c0b2f8384c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9218 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DM1"
 		(shape input)
 		(at 87.63 111.76 180)
@@ -8942,28 +8960,6 @@
 		(uuid "dc4c0885-b2e3-404f-ab28-9bf396c3c55a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.4247 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RGB"
-		(shape input)
-		(at 139.7 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e00e62c1-0b10-4b41-9bd9-644ed858b123")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.4952 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +9312,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 138.43 138.43 270)
+		(at 139.7 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9324,7 +9320,7 @@
 		(dnp yes)
 		(uuid "0dafaff9-3c7a-41d8-a842-3038af5af53d")
 		(property "Reference" "IO16"
-			(at 144.78 138.43 90)
+			(at 146.05 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9328,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 141.732 140.97 90)
+			(at 143.002 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9337,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 138.43 143.51 0)
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9346,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 143.51 0)
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9355,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 138.43 138.43 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 140.716 0)
 			(effects
 				(font
@@ -9814,7 +9810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 155.956 0)
 			(effects
 				(font
@@ -9881,7 +9877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 163.576 0)
 			(effects
 				(font
@@ -9948,7 +9944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 138.176 0)
 			(effects
 				(font
@@ -9992,7 +9988,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 179.07 90)
+		(at 140.97 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10000,7 +9996,7 @@
 		(dnp no)
 		(uuid "23b910dc-b62a-435a-bdac-2c9331b0108f")
 		(property "Reference" "R51"
-			(at 145.034 177.038 90)
+			(at 143.002 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +10004,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 145.034 179.07 90)
+			(at 140.97 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10012,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.78 180.848 90)
+			(at 139.192 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 179.07 0)
+			(at 140.97 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10030,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 179.07 0)
+			(at 140.97 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,6 +12224,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5d6bec5d-0a9a-4939-b2e9-5b3b3b31c592")
+		(property "Reference" "ADC3"
+			(at 130.048 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 138.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f535e5d-51c4-45e1-bc01-1ee40fbae721")
+		)
+		(instances
+			(project "spacescape"
+				(path "/418a52ba-b136-48f0-a485-149e9dc1363e/b3767966-d6d1-4f79-8708-552c7bb7a812"
+					(reference "ADC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 242.57 107.95 0)
 		(unit 1)
@@ -12878,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 158.496 0)
 			(effects
 				(font
@@ -13626,7 +13687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 143.256 0)
 			(effects
 				(font
@@ -14036,7 +14097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 161.036 0)
 			(effects
 				(font
@@ -14191,7 +14252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 153.416 0)
 			(effects
 				(font
@@ -15123,7 +15184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 135.636 0)
 			(effects
 				(font
@@ -15460,7 +15521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "spacescape:Untitled"
+		(property "Footprint" "spacescape:RES-PAD"
 			(at 167.386 150.876 0)
 			(effects
 				(font

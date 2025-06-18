@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 96.52 59.69)
+		(at 64.77 99.06)
 		(size 25.4 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "126e2598-dd72-4799-b643-baad7dfcd795")
 		(property "Sheetname" "d-pad"
-			(at 96.52 58.9784 0)
+			(at 64.77 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "d-pad.kicad_sch"
-			(at 96.52 71.7046 0)
+			(at 64.77 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,48 +253,6 @@
 			(project "spacescape"
 				(path "/418a52ba-b136-48f0-a485-149e9dc1363e"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 64.77 99.06)
-		(size 25.4 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f8071adf-8c79-49d8-9fd8-09b7aea99222")
-		(property "Sheetname" "comms"
-			(at 64.77 98.3484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "comms.kicad_sch"
-			(at 64.77 111.0746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "spacescape"
-				(path "/418a52ba-b136-48f0-a485-149e9dc1363e"
-					(page "7")
 				)
 			)
 		)
