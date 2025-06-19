@@ -1,0 +1,10 @@
+### Missing 3D models - created on 2025-06-19 01:48
+### Printed by checking_3D_models plugin
+Board file: C:\Users\dex\Documents\GitHub\100GI\showcase\returnfrom.space\Hardware\spacescape.kicad_pcb
+3D missing models written to:
+C:\Users\dex\Documents\GitHub\100GI\showcase\returnfrom.space\Hardware\spacescape_missing3Dmodels.txt
+-------
+('J26', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_Hirose.3dshapes\\Hirose_DF13-02P-1.25DS_1x02_P1.25mm_Horizontal.step')
+-------
+NUM of 3D missing models:1
+checked extensions ['.stp', '.step', '.stpZ']
