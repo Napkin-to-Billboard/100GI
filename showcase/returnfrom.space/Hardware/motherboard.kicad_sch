@@ -8517,16 +8517,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 135.89) (xy 251.46 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750b1e55-08a4-4e6e-906c-1a9a8b12e394")
-	)
-	(wire
-		(pts
 			(xy 146.05 147.32) (xy 167.64 147.32)
 		)
 		(stroke
@@ -9364,16 +9354,6 @@
 			(type default)
 		)
 		(uuid "cb68c7d4-b6f6-4691-acde-42eef6e5fbd8")
-	)
-	(wire
-		(pts
-			(xy 251.46 142.24) (xy 251.46 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd606d27-085b-46bf-9b13-5611a2bf7ff9")
 	)
 	(wire
 		(pts
@@ -15695,7 +15675,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 139.7 180)
+		(at 251.46 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15703,7 +15683,7 @@
 		(dnp no)
 		(uuid "95c9b65e-5792-453b-9bab-b540458ffa06")
 		(property "Reference" "R46"
-			(at 253.746 135.636 0)
+			(at 253.746 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,7 +15691,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 251.46 139.446 90)
+			(at 251.46 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +15699,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 139.7 90)
+			(at 253.238 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 139.7 0)
+			(at 251.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +15717,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 251.46 139.7 0)
+			(at 251.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
